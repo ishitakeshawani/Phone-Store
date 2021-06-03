@@ -5,6 +5,8 @@ import EmptyCart from "./EmptyCart";
 import { ProductConsumer } from "../../Contexts";
 import CartList from "./CartList";
 import CartTotals from "./CartTotals";
+import StripeContainer from "./StripeContainer";
+
 
 
 export default class Cart extends Component {
@@ -21,9 +23,11 @@ export default class Cart extends Component {
                                     <CartColumns />
                                     <CartList value={value} />
                                     <CartTotals value={value} />
+                                    <StripeContainer value={value} />
                                 </React.Fragment>
 
                             );
+
                         }
                         else {
                             return <EmptyCart />;
