@@ -5,12 +5,12 @@ const CartColumns = () => {
         <div className="Container text-center d-none d-lg-block  ">
             <div className="row">
 
-                <div className="col-10 mx-auto col-lg-2">
+                <div className="col-10 col-lg-2">
                     <p className="text-uppercase">
                         products
                     </p>
                 </div>
-                <div className="col-10 mx-auto col-lg-2">
+                <div className="col-10  col-lg-2">
                     <p className="text-uppercase">
                         name of product
                     </p>
@@ -18,6 +18,11 @@ const CartColumns = () => {
                 <div className="col-10 mx-auto col-lg-2">
                     <p className="text-uppercase">
                         price
+                    </p>
+                </div>
+                <div className="col-10 mx-auto col-lg-2">
+                    <p className="text-uppercase">
+                        increment/decrement
                     </p>
                 </div>
                 <div className="col-10 mx-auto col-lg-2">

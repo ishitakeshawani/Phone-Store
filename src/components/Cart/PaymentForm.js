@@ -50,6 +50,7 @@ export default function PaymentForm(props) {
                 if (response.data.success) {
                     console.log("Successful payment")
                     setSuccess(true)
+
                 }
 
             } catch (error) {
@@ -64,12 +65,15 @@ export default function PaymentForm(props) {
         <>
             {!success ?
                 <form onSubmit={handleSubmit}>
-                    <fieldset className="FormGroup">
+                    <fieldset className="FormGroup mx-auto col-lg-5">
                         <div className="FormRow">
                             <CardElement options={CARD_OPTIONS} />
                         </div>
                     </fieldset>
-                    <button>Pay</button>
+                    <div className="col-md-12 text-center">
+                        <button className="btn btn-outline-dark text-uppercase  px-5">Pay</button>
+                    </div>
+
                 </form>
                 :
                 <div>
