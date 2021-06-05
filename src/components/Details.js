@@ -7,6 +7,7 @@ import { ButtonContainer } from './Button';
 export default class Details extends Component {
     render() {
         return (
+
             <ProductConsumer>
                 {v => {
                     const { id, company, img, info, price, title, inCart } = v.detailProduct;
@@ -43,7 +44,7 @@ export default class Details extends Component {
                                         {info}
                                     </p>
                                     <div>
-                                        <Link to="/">
+                                        <Link to="/productList">
                                             <ButtonContainer>
                                                 back to products
                                             </ButtonContainer>

@@ -6,13 +6,16 @@ import { ProductConsumer } from "../../Contexts";
 import CartList from "./CartList";
 import CartTotals from "./CartTotals";
 import StripeContainer from "./StripeContainer";
-
+import Navbar from "./../Navbar";
 
 
 export default class Cart extends Component {
     render() {
+
         return (
+
             <section>
+                <Navbar />
                 <ProductConsumer>
                     {value => {
                         const { cart } = value;

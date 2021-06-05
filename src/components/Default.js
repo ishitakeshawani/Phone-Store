@@ -1,10 +1,12 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import Navbar from "./Navbar";
 
 export default class Default extends Component {
     render() {
 
         return (
             <div>
+                <Navbar />
                 <div className="container">
                     <div className="row">
                         <div className="col-10 mx-auto text-center text-title text-uppercase pt-5">

@@ -12,7 +12,7 @@ class Navbar extends Component {
         return (
             <NavWrapper className="navbar navbar-expand-sm navbar-dark  px-sm-5">
 
-                <Link to='/' className="nav-link">
+                <Link to='/productList' className="nav-link">
                     Products
                 </Link>
 
@@ -49,6 +49,12 @@ class Navbar extends Component {
                         </span>
                     </ButtonContainer>
                 </Link>
+
+                {/* <Link to='/'>
+                    <ButtonContainer>
+                        Sign In
+                    </ButtonContainer>
+                </Link> */}
             </NavWrapper>
         );
     }
