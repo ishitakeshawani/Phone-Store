@@ -10,7 +10,7 @@ const CartTotals = ({ value }) => {
             <div className="container">
                 <div className="row">
                     <div className="mt-2 ml-sm-5  text-capitalize text-center">
-                        <Link to="/">
+                        <Link to="/productList">
                             <div className="col-md-12 text-center">
                                 <button className="btn btn-outline-danger text-uppercase mb-3 px-5"
                                     type="button"
