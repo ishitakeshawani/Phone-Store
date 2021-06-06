@@ -36,9 +36,9 @@ const SignUp = () => {
 
     return (
         <>
-            <Card>
+            <Card style={{ height: '25rem', width: '30rem', margin: '0 auto' }}>
                 <Card.Body>
-                    <h2 className="text-center mt-2">Sign Up</h2>
+                    <h2 className="text-center mt-4">Sign Up</h2>
 
                     {error && <Alert variant="danger">{error}</Alert>}
                     <Form onSubmit={handleSubmit}>

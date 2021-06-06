@@ -31,7 +31,7 @@ const Login = () => {
 
     return (
         <>
-            <Card>
+            <Card style={{ height: 'auto', width: '30rem', margin: '0 auto' }}>
                 <Card.Body>
                     <h2 className="text-center mb-4">Log In</h2>
                     {error && <Alert variant="danger">{error}</Alert>}
