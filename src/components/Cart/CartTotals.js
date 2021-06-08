@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 
 const CartTotals = ({ value }) => {
     const { cartSubTotal, cartTax, cartTotal, clearCart } = value;
-
     return (
         <React.Fragment>
             <div className="container">
