@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 import { Form, Button, Card, Alert, Container } from 'react-bootstrap';
 import { useAuth } from '../contexts/AuthContext';
 import { Link, useHistory } from "react-router-dom";
-
+import BlankNavbar from "./BlankNavbar";
 
 const SignUp = () => {
     const emailRef = useRef();
@@ -36,9 +36,9 @@ const SignUp = () => {
 
     return (
         <>
-
+            <BlankNavbar />
             <Container className="d-flex align-items-center justify-content-center"
-                style={{ minHeight: "100vh" }}
+                style={{ minHeight: "80vh" }}
             >
                 <div className="w-100" style={{ maxWidth: "500px" }}>
                     <Card>
@@ -70,7 +70,7 @@ const SignUp = () => {
                         </Card.Body>
                     </Card>
                     <div className="w-100 text-center mt-2">
-                        Already have an account? <Link to="/login">Log In</Link>
+                        Already have an account? <Link to="/login" className="bottomlink">Log In</Link>
                     </div>
                 </div>
             </Container>
