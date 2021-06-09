@@ -23,7 +23,7 @@ const CartTotals = ({ value }) => {
 
                         </Link>
                         <h5>
-                            <span className="text-title text-center">
+                            <span className="text-center">
                                 subtotal :
                             </span>
                             <strong>
@@ -31,7 +31,7 @@ const CartTotals = ({ value }) => {
                             </strong>
                         </h5>
                         <h5>
-                            <span className="text-title">
+                            <span>
                                 tax :
                             </span>
                             <strong>
@@ -39,7 +39,7 @@ const CartTotals = ({ value }) => {
                             </strong>
                         </h5>
                         <h5>
-                            <span className="text-title">
+                            <span>
                                 total :
                             </span>
                             <strong>

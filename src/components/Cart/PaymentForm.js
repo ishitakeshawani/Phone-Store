@@ -1,6 +1,7 @@
 import { CardElement, useElements, useStripe } from "@stripe/react-stripe-js"
 import axios from "axios"
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+
 
 
 const CARD_OPTIONS = {
@@ -51,7 +52,9 @@ export default function PaymentForm(props) {
                     console.log("Successful payment")
                     setSuccess(true)
 
+
                 }
+
 
             } catch (error) {
                 console.log("Error", error)
@@ -65,7 +68,7 @@ export default function PaymentForm(props) {
         <>
             {!success ?
                 <form onSubmit={handleSubmit}>
-                    <fieldset className="FormGroup mx-auto col-lg-5">
+                    <fieldset className="FormGroup mx-auto col-lg-5 m">
                         <div className="FormRow">
                             <CardElement options={CARD_OPTIONS} />
                         </div>
@@ -77,6 +80,7 @@ export default function PaymentForm(props) {
                 </form>
                 :
                 <div>
+
                     <h2>Congrats!!Payment successful</h2>
                 </div>
             }
