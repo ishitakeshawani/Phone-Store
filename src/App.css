@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@600&display=swap');
 :root{
     --mainBlue:#2a2a72;
     --lightBlue:#009ffd;
     --mainWhite:#f3f3f3;
     --mainDark:#232528;
     --mainYellow:#ffa400;
+
 }
 
 body{
     background: var(--mainWhite) !important;
     color: var(--mainDark) !important;
+    font-family: 'Alegreya', serif;
 }
 
 .text-title{
@@ -83,3 +86,18 @@ button:active {
 	transform: scale(0.99);
 }
 
+.bottomlink{
+    color: var(--mainBlue);
+    text-decoration:none;
+    font-weight: bold;
+}
+
+.bottomlink:hover{
+    color: var(--mainBlue);
+}
+.title{
+    color:var(--mainWhite);
+    font-size: 1.2rem !important;
+    margin: auto;
+    padding: 9px;
+}
