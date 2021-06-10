@@ -42,7 +42,7 @@ export default function PaymentForm(props) {
             console.log("token", paymentMethod);
             try {
                 const { id } = paymentMethod
-                const response = await axios.post("http://localhost:4000/payment", {
+                const response = await axios.post("https://serverjs.vercel.app/payment", {
                     amount: props.cartTotal,
                     id: id
                 })
@@ -81,7 +81,7 @@ export default function PaymentForm(props) {
                 :
                 <div>
 
-                    <h2>Congrats!!Payment successful</h2>
+                    <h2 className="text-center">Congrats!!Payment successful</h2>
                 </div>
             }
 
