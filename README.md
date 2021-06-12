@@ -1,3 +1,4 @@
-# E-Commerce-Site
-It is E-Commerce Site made using React.js, Bootstrap.
+# Phone-Store
+It is Phone Store made using React.js, Bootstrap.<br>
+https://phonestoreindia.netlify.app/
 
