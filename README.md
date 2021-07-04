@@ -42,7 +42,7 @@
 
 ## Overview 🔨
 
-Phone Store is Web Application to sell and Buy Phones online.First user need to create account.Phone store provides the user with a catalog of different phones available for purchase in the store. In order to facilitate online purchase a shopping cart is provided to the user. User can get all the datails of phone and add interested phone in the cart.To make the process fast and easy,user can add thier card information and pay the Total amount.
+Phone Store is Web Application to sell and Buy Phones online.First user need to create account.Phone store provides the user with a catalog of different phones available for purchase in the store. In order to facilitate online purchase a shopping cart is provided to the user. User can get all the details of phone and add interested phone in the cart.To make the process fast and easy,user can add thier card information and pay the Total amount.
 
  <br />
 
